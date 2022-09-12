@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.renderWhitespace": "none",
+    "editor.cursorStyle": "block-outline",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.minimap.autohide": false,
+    "editor.minimap.scale": 1
+}
