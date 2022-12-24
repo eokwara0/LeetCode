@@ -15,15 +15,18 @@ class Solution:
         for i in nums:
             #try catch statement
             try:
+                
                 # Increments if value is already present
                 # and checks if the value is greater than 1 
                 data_[i] = data_[i] + 1
                 if data_[i] > 1 :
                     return True
+                
             except KeyError:
                 # if value is not present
                 # add the value as a key and set the value to 1 
                 data_[i] = 1
+                
         # return false if no value has duplicates
         return False
             
