@@ -4,9 +4,11 @@ from typing import List
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         data = []
-        nums = sorted(nums)
-        if len(nums) < 3:
-            return []
+        for i in range(len(nums)):
+            self.find_sums_of_zero(nums[i], i, nums)
+
+    def find_sums_of_zero(self, element: int, element_index: int, sub_array: List[int]):
+        pass
 
 
 if __name__ == "__main__":
